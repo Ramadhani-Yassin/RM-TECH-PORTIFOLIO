@@ -10,7 +10,6 @@ import {
 } from "react-icons/fa";
 import { SiSpringboot, SiFlutter } from "react-icons/si"; // Removed unused icons
 
-
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: ["Software Development", "FinTech Solutions", "System Analysis", "Digital Transformation"],
