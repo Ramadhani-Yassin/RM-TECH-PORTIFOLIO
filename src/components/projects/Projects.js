@@ -39,7 +39,7 @@ const Projects = () => {
           title="Hotel Booking System"
           des="A booking website designed for The Chwaka House Zanzibar — chwakahouse-booking.online."
           src={projectSeven}
-          link="https://chwakahouse-booking.online"
+          link="https://bookings.chwakahouse.co.tz"
         />
         </a>
 
