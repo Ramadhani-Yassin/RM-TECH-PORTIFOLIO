@@ -9,6 +9,9 @@ import projectSix from "./images/projects/projectSix.png";
 import projectSeven from "./images/projects/projectSeven.png";
 import projectEight from "./images/projects/projectEight.jpg";
 import projectNine from "./images/projects/projectNine.jpg";
+import projectTen from "./images/projects/project-ten.png";
+import projectEleven from "./images/projects/project-eleven.png";
+import projectTwelve from "./images/projects/project-twelve.png";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import testimonialThree from "./images/testmonial/testimonialThree.png";
@@ -27,6 +30,9 @@ export {
   projectSeven,
   projectEight,
   projectNine,
+  projectTen,
+  projectEleven,
+  projectTwelve,
   testimonialOne,
   testimonialTwo,
   testimonialThree,
