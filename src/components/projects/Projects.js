@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine, projectTen, projectEleven, projectTwelve } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -11,12 +11,12 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="EXPLORE OUR PORTFOLIO AND SHARE YOUR FEEDBACK"
-          des="Our Projects"
+          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <a href="https://chwakahouse.co.tz" target="_blank" rel="noopener noreferrer">
+      <a href="https://chwakahouse.co.tz" target="_blank" rel="noopener noreferrer">
           <ProjectsCard
             title="Hospitality Website"
             des="A modern Showcase site built for The Chwaka House Zanzibar — chwakahouse.co.tz."
@@ -41,6 +41,32 @@ const Projects = () => {
           src={projectSeven}
           link="https://bookings.chwakahouse.co.tz"
         />
+        </a>
+
+             <a href="https://zrcp.or.tz/" target="_blank" rel="noopener noreferrer">
+          <ProjectsCard
+            title="ZRCP Website"
+            des="Zanzibar Research Centre for Socio-Economic and Policy Analysis (ZRCP) was established in 2021 as a multidisciplinary think tank."
+            src={projectTen}
+            link="https://zrcp.or.tz/"
+          />
+        </a>
+
+        <a href="https://alsatours.co.tz/" target="_blank" rel="noopener noreferrer">
+          <ProjectsCard
+            title="Alsa Tours"
+            des="Hi! We are Alsa Tours, a passionate team of explorers inspired by the beauty and culture of Zanzibar."
+            src={projectEleven}
+            link="https://alsatours.co.tz/"
+          />
+        </a>
+        <a href="https://nyotahub.co.tz/" target="_blank" rel="noopener noreferrer">
+          <ProjectsCard
+            title="Nyota Tech Hub Website"
+            des="Nyota Tech Hub is a dynamic innovation platform based in Zanzibar, committed to empowering local innovators, startups, and entrepreneurs."
+            src={projectTwelve}
+            link="https://nyotahub.co.tz/"
+          />
         </a>
 
         <a href="https://twist-taste.online" target="_blank" rel="noopener noreferrer">
